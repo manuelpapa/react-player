@@ -10,5 +10,17 @@ h3 {
   color: rgb(37, 37, 37);
 }
 
+h3,
+h4 {
+  font-weight: 400;
+  color: rgb(103, 102, 117);
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
 @import "./player";
 @import "./song";
+@import "./library";
+@import "./nav";
